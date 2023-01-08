@@ -1,0 +1,302 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    height: 550px;
+    width: 100%;
+    background-image: url("images/banner/banner1.png");
+    background-size: cover;
+    background-position: bottom center;
+    display: flex;
+
+
+
+}
+
+.leftHero {
+    width: 70%;
+    height: 100%;
+}
+
+.heroInfo {
+    padding-right: 20px;
+    height: 100%;
+    width: 30%;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+
+
+
+
+
+
+
+.failure {
+    display: flex;
+    height: 350px;
+    background-color: #FFFFFF;
+    margin-top: 50px;
+}
+
+.imgFailure {
+    height: 100%;
+    width: 50%;
+    text-align: center;
+
+
+}
+
+.imgFailure img {
+    height: 100%;
+    width: 35%;
+}
+
+.detailsFailure {
+    padding: 30px;
+    width: 40%;
+    padding-top: 60px;
+
+}
+
+.blankFailure {
+    width: 20%;
+}
+
+.detailsFailure img {
+    height: 25px;
+    width: 25px;
+}
+
+.detailsFailure li {
+    list-style: none;
+    margin-top: 10px;
+
+}
+
+.detailsFailure li i {
+    margin-right: 10px;
+    color: green;
+    font-size: large;
+}
+
+.detailsFailure li a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+.planContainer {
+    height: 300px;
+    width: 100%;
+}
+
+.myPlan {
+    margin: 0 auto;
+    display: flex;
+    height: 100%;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plan {
+    text-align: center;
+}
+
+
+
+.contactSection {
+    height: 300px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.contact {
+    display: flex;
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    background-image: url("images/watch.png");
+
+
+    align-items: center;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    background-image: linear-gradient(to right, #F15B22, transparent);
+    height: 100%;
+    width: 100%;
+    opacity: .6;
+}
+
+.infoContact {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.infoContact h2 {
+    margin-bottom: 10px;
+    color: white;
+}
+
+.blankContact {
+    width: 50%;
+}
+
+.skillSection{
+width: 100%;
+height: 325px;
+margin-top: 50px;
+}
+.sklillContainer{
+margin: 0 auto;
+width: 70%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+.containar{
+
+margin-bottom: 10px;
+}
+.containar span{
+position: absolute;
+right: 0;
+color: #F15B22;
+font-weight: bolder;
+}
+.skill{
+padding: 10px;
+color: white;
+position: relative;
+}
+.Javascript{
+width: 20%;
+background-image: linear-gradient(to right,blue,transparent);
+}
+.RJS{
+width: 40%;
+background-image: linear-gradient(to right,red,transparent);
+}
+.bootstrap{
+width: 60%;
+background-image: linear-gradient(to right,green,transparent);
+}
+.css{
+width: 80%;
+background-image: linear-gradient(to right,violet,transparent);
+}
+.html{
+width: 90%;
+background-image: linear-gradient(to right,gray,transparent);
+}
+
+
+
+
+footer {
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.footerContainer {
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.leftFooter {
+    width: 45%;
+
+}
+
+.faCotactContainar {
+    display: flex;
+
+}
+
+.faContactIcon {
+    height: 50px;
+    width: 50px;
+    background-color: beige;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15PX;
+
+}
+
+.faContactIcon i {
+    font-size: 20px;
+
+
+
+}
+
+.faContactIcon:nth-child(1) I {
+    color: lightseagreen;
+}
+
+.faContactIcon:nth-child(2) I {
+    color: RED;
+}
+
+.faContactIcon:nth-child(3) I {
+    color: blue;
+}
+
+.blankFooter {
+    width: 20%;
+}
+
+.rightFooter {
+    width: 35%;
+}
+
+.rightFooter input {
+    padding: 10px;
+}
+
+
+
+
+
+.btn {
+
+    padding: 10px 15px;
+    font-weight: bold;
+}
+
+.primaryBtn {
+    width: 120px;
+    background-color: #F15B22;
+    outline: none;
+    border: none;
+}
+
+.btnSecondary {
+    color: #F15B22;
+}
